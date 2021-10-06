@@ -4,7 +4,27 @@ namespace lesson2
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
+        {
+            int n = int.Parse(Console.ReadLine());
+
+
+
+            int sum = 0;
+            // while(n-->0)
+            // {
+            //     sum+=n;
+            // }
+            // System.Console.WriteLine($"{sum}");
+
+            for(int i = 0; i <= n; i++)
+            {
+                sum+=i;
+            }
+            System.Console.WriteLine($"{sum}");
+        }
+
+        static void Main_Conditionals(string[] args)
         {
 
             // int a = 10;
